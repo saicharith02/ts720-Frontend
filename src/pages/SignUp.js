@@ -14,8 +14,9 @@ export const SignUp = () => {
        }))
      }  
   return (
-    <div>
+    <div className='signup'>
         <form>
+            <h1>TSChat</h1>
             <FormComp formOptions={{...signFormData}} onChange={storeData}/>
         </form>
     </div>

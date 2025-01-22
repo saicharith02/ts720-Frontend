@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import FormComp from '../compounds/FormComp';
 
+
 function LoginPage() {
   let [loginFormData,setLoginFormData]=useState(
     {username:{type:'text',className:'username',value:''},
@@ -14,7 +15,8 @@ function LoginPage() {
    }
    
   return (
-    <div>
+    <div className='login-body'>
+        <h1>TSChat</h1>
         <FormComp formOptions={{...loginFormData}} onChange={storeData}/>
     </div>
   )

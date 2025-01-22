@@ -1,13 +1,16 @@
 
-import './App.css';
+import "./css/AppDesign.css"
 import LoginPage from './pages/LoginPage';
 import { SignUp } from './pages/SignUp';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <div className="navbar">
+
+      </div>
       {/* <LoginPage/>  */}
-      {/* <SignUp/> */}
+      <SignUp/>
     </div>
   );
 }
