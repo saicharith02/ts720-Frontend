@@ -1,5 +1,6 @@
 
 import "./css/AppDesign.css"
+import { ChatPage } from "./pages/ChatPage";
 import LoginPage from './pages/LoginPage';
 import { SignUp } from './pages/SignUp';
 
@@ -10,7 +11,8 @@ function App() {
 
       </div>
       {/* <LoginPage/>  */}
-      <SignUp/>
+      {/* <SignUp/> */}
+      <ChatPage/>
     </div>
   );
 }
